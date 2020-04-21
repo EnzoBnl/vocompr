@@ -15,10 +15,10 @@ from vocompr import vocompr, unvocompr
 with open("path/vopress_input.txt", "r") as input_file:
     input_str = input_file.read()
 
-with open("path/vopress_output", "wb") as output_bytes_file:
+with open("path/output.vocompr", "wb") as output_bytes_file:
     output_bytes_file.write(vocompr(input_str))
 
-with open("path/vopress_output", "rb") as input_bytes_file:
+with open("path/output.vocompr", "rb") as input_bytes_file:
     print("original text:", unvocompr(input_bytes_file.read()))
 ```
 
