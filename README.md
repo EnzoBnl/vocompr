@@ -1,9 +1,9 @@
 # VoCompr (status: POC)
 [![Actions Status](https://github.com/enzobnl/vocompr/workflows/test/badge.svg)](https://github.com/enzobnl/pycout/actions) [![Actions Status](https://github.com/enzobnl/vocompr/workflows/PyPI/badge.svg)](https://github.com/enzobnl/pycout/actions)
 
-**A VOCabulary-based COMPRession algorithm**
+**VOCabulary-based COMPRession algorithm**
 
-*Specialized in the compression of texts having a small characters set, like DNA sequencies.*
+*Codec specialized in the compression of texts having a very small disctinct characters set.*
 
 ## Install
 `pip install vocompr` (or `pip install git+https://github.com/enzobnl/vocompr.git`)
