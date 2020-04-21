@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='vocompr',
-    version='0.1.1',
+    version='0.1.2',
     packages=['vocompr'],
     url='http://github.com/EnzoBnl/vocompr',
     license='Apache 2.',
