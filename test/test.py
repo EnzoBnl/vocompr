@@ -2,8 +2,6 @@ import random
 import sys
 import unittest
 
-sys.path.append("..")
-
 from vocompr import *
 
 
